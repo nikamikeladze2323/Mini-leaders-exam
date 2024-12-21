@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(225, 191, 0);
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    font-size: 30px;
+    padding-left: 50px;
+}
+
+.menu, ul, li{
+    display: flex;
+    gap: 30px;
+    padding: 10px 30px;
+}
+
+.menu, ul, li, a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+
+.header_1{
+    font-size: 30px;
+    padding-top: 125px;
+    padding-left: 25px;
+}
+
+img{
+    width: 350px;
+    height: 250px
+}
